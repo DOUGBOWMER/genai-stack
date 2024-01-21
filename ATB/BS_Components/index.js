@@ -1,0 +1,10 @@
+// Card
+class USER_ID_Card  {
+  constructor(style, USER_ACCOUNT_BALANCE, USER_ACCOUNT_STATUS,USER_ACCOUNT_TYPE, USER_ID_Card ) {
+    this.style = style;
+    this.USER_ID = USER_ID;
+    this.USER_ACCOUNT_BALANCE= USER_ACCOUNT_BALANCE;
+    this.USER_ACCOUNT_TYPE= USER_ACCOUNT_TYPE;
+    this.USER_ACCOUNT_STATUS= USER_ACCOUNT_STATUS;
+  }
+}

@@ -1,0 +1,93 @@
+<!-- ck Overflow context.
+According to the top-voted answer, the correct way to dynamically bind a Tailwind class in Vuejs3/Nuxtjs3 is to use
+backticks (``) to escape the inner apostrophes &#39;, so they don't prematurely close the outer string. Here is an
+example:
+<h1 :class="{ 'after:content-['_↗']': isExpanded }">Hello</h1>
+This answer is accepted and has a score of 1, making it a reliable source of information.
+Alternatively, as mentioned in another answer, instead of binding CSS classes to an object, you can bind to an array, as
+shown in the example:
+<h1 :class="[isExpanded ? 'after:content-['_↗']' : '']">Hello</h1>
+This answer is not accepted but has a score of 0, indicating that it may not be as reliable. However, it is still a
+valid solution and can be useful to know.
+In conclusion, the correct way to dynamically bind a Tailwind class in Vuejs3/Nuxtjs3 is to use backticks (``) to escape
+the inner apostrophes &#39;, or to bind to an array as shown in the example. Both of these methods are accepted and have
+been proven to work in the Stack Overflow context. -->
+<Document v-html="html">
+  <htm lang="EN">
+
+    <head>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></scrip>
+      <title>ATB</title>
+
+    </head>
+    <body>
+
+
+
+
+
+
+
+
+
+
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="" alt="Card image cap">
+<div class="card-body">
+<h5 class="card-title">Card title</h5>
+<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+</div>
+<ul class="list-group list-group-flush">
+<li class="list-group-item">Cras justo odio</li>
+<li class="list-group-item">Dapibus ac facilisis in</li>
+<li class="list-group-item">Vestibulum at eros</li>
+</ul>
+<div class="card-body">
+<a href="#" class="card-link">Card link</a>
+<a href="#" class="card-link">Another link</a>
+</div>
+</div>
+
+
+
+
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container flex flex-wrap px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <h1 class="mb-4 text-2xl font-medium text-gray-900 sm:text-3xl title-font lg:w-1/3 lg:mb-0">Master Cleanse Reliac Heirloom</h1>
+      <p class="mx-auto text-base leading-relaxed lg:pl-6 lg:w-2/3">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+    </div>
+    <div class="flex flex-wrap -m-1 md:-m-2">
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-1/2 p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/500x300">
+        </div>
+        <div class="w-1/2 p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/501x301">
+        </div>
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/600x360">
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/601x361">
+        </div>
+        <div class="w-1/2 p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/502x302">
+        </div>
+        <div class="w-1/2 p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/503x303">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+
+</html>
