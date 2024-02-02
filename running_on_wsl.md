@@ -21,17 +21,21 @@ I won't cover the activation of WSL procedure which you will find very easy on i
 > 3. How to configure Docker Desktop to work with the WSL. https://tutorials.releaseworksacademy.com/learn/how-to-configure-docker-desktop-to-work-with-the-wsl.html.
 > 4. How can I access wsl2 which is used by Docker desktop?. https://stackoverflow.com/questions/70449927/how-can-i-access-wsl2-which-is-used-by-docker-desktop.
 
-After the activation enter into the WSL with the command `wsl` and type `docker`.
-
-1. Install ollama on WSL using https://github.com/jmorganca/ollama (avec la commande `curl https://ollama.ai/install.sh | sh`)
-
-   - The script have been downloaded in `./install_ollama.sh` and you do the smae thing with `sh ./install_ollama.sh`
-   - To list the downloaded model: `ollama list`. This command could lead to:
+1.
 
    ```sh
-   NAME            ID              SIZE    MODIFIED       
-   llama2:latest   7da22eda89ac    3.8 GB  22 minutes ago
+   After the activation enter into the WSL with the command wsl and type docker.
    ```
+
+   1. Install ollama on WSL using https://github.com/jmorganca/ollama (avec la commande `curl https://ollama.ai/install.sh | sh`)
+
+      - The script have been downloaded in `./install_ollama.sh` and you do the smae thing with `sh ./install_ollama.sh`
+      - To list the downloaded model: `ollama list`. This command could lead to:
+
+      ```sh
+      NAME            ID              SIZE    MODIFIED
+      llama2:latest   7da22eda89ac    3.8 GB  22 minutes ago
+      ```
 
    - (OPTIONAL) To remove model: `ollama rm llama2`
    - To run the ollama on WSL: `ollama run llama2`
